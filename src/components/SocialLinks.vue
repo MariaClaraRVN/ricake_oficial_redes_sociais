@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const socialLinks = [
   { name: 'Whatsapp', url: '#', icon: '📞' },
-  {name: 'Cardapio', url: '#', icon: '📄'},
+  {name: 'Cardápio', url: '#', icon: '📄'},
   { name: 'Instagram', url: 'https://www.instagram.com/ricake.oficial/', icon: '📸' },
   { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61573172783708', icon: '👥' },
   { name: 'Tiktok', url: 'https://www.tiktok.com/@ricake.oficial', icon: '💃🏼' },
