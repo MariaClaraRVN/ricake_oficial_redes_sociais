@@ -4,7 +4,7 @@ Este projeto é uma landing page moderna e elegante para uma confeitaria, criada
 
 ✨ Tecnologias Utilizadas
 
-Vue 3 (Composition API)
+Vue 3 
 
 Vite
 
