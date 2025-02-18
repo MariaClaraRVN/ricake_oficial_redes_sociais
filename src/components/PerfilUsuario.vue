@@ -4,7 +4,7 @@
 <template>
   <div class="perfil">
     <div class="logo-perfil">
-      <img src="/public/img/RICAKE (5).png" alt="Ricake Logo" class="logo" />
+      <img src="/public/img/Ricake.png" alt="Ricake Logo" class="logo" />
     </div>
     <h1 class="titulo">RICAKE</h1>
     <p class="subtitulo">Feito com amor para adoçar seu dia!</p>

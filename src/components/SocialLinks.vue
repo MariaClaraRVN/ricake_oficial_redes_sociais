@@ -1,12 +1,10 @@
 <script setup lang="ts">
 const socialLinks = [
-  { name: 'Whatsapp', url: '#', icon: '📞' },
-  {name: 'Cardápio', url: '#', icon: '📄'},
-  { name: 'Instagram', url: 'https://www.instagram.com/ricake.oficial/', icon: '📸' },
-  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61573172783708', icon: '👥' },
-  { name: 'Tiktok', url: 'https://www.tiktok.com/@ricake.oficial', icon: '💃🏼' },
-
-  
+  { name: 'Whatsapp', url: 'https://w.app/5kzcmq', icon: '/img/whatsapp.png' },
+  { name: 'Cardápio', url: '/docs/Cardapio_Ricake.pdf', icon: '/img/cardapio.png' },
+  { name: 'Instagram', url: 'https://www.instagram.com/ricake.oficial/', icon: '/img/instagram.png' },
+  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61573172783708', icon: '/img/facebook.png' },
+  { name: 'Tiktok', url: 'https://www.tiktok.com/@ricake.oficial', icon: '/img/tiktok.png' },
 ]
 </script>
 
@@ -14,7 +12,7 @@ const socialLinks = [
   <div class="social-links">
     <a v-for="link in socialLinks" :key="link.name" :href="link.url" class="social-link" target="_blank"
       rel="noopener noreferrer">
-      <span class="icon">{{ link.icon }}</span>
+      <img :src="link.icon" :alt="link.name" class="icon" />
       {{ link.name }}
     </a>
   </div>
@@ -49,12 +47,7 @@ const socialLinks = [
 }
 
 .icon {
-  font-size: 1.2rem;
-}
-
-@media (max-width: 768px) {
-  .social-link {
-    padding: 0.6rem 1.5rem;
-  }
+  width: 30px;
+  height: 30px;
 }
 </style>
