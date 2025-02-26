@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const socialLinks = [
-  { name: 'Whatsapp', url: 'https://w.app/5kzcmq', icon: '/img/whatsapp.png' },
+  { name: 'Whatsapp', url: 'https://wa.link/krrj4r', icon: '/img/whatsapp.png' },
   { name: 'Cardápio', url: '/docs/Cardapio_Ricake.pdf', icon: '/img/cardapio.png' },
   { name: 'Instagram', url: 'https://www.instagram.com/ricake.oficial/', icon: '/img/instagram.png' },
   { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61573172783708', icon: '/img/facebook.png' },
